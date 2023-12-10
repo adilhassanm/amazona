@@ -1,0 +1,35 @@
+1.Use single qoute for JS and double qoute for JSX
+
+2.Create a new terminal,Create a project folder called amazona
+3.npx create-react-app frontend 
+4.cd frontend
+5.npm start
+6.VSCODE go to file add folder to workspace and then select amazona folder
+7.Goto src folder app.js file,remove existing default react app content to below
+function App() {
+  return (
+    <div>
+      <header>
+        <a href="/">amazona</a>
+      </header>
+      <main>list products</main>
+    </div>
+  );
+}
+
+export default App;
+8.Goto index.css file get rid of code block and bottom as we are going to use react bootstrap
+9.header{
+  background-color: #404040;  // for grey header
+  padding: 1rem;  // for responsive, 1 rem = 16px
+}
+10 to get the amazona(write) to white
+
+header a {
+  color: #ffffff;
+} /*here a means whaever in link in header get this color*/
+
+11.Git and github setting
+at amazona folder level 
+rm -rf .git
+move .gitignore to main amazona folder

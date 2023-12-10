@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  /*for header background */
+  background-color: #404040;
+  padding: 1rem;
+}
+header a {
+  /*here a means whaever in link in header get this color*/
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
